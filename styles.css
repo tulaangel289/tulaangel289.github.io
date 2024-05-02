@@ -32,15 +32,16 @@ header .anuncios_h1{
     width: 50%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
     
 }
 
-header .anuncios_h1 span{
+header .anuncios_h1 a{
     background-color: rgba(237, 127, 104);
-    width: 100%;
     color: black;
-    font-size: large;
-    left: 5vh;
+    font-size: 3vh;
 }
 
 
