@@ -7,54 +7,6 @@ body{
     padding: 1%;
 }
 
-main {
-    top: 20%;
-    display: flex;
-    width: 100%;
-    height: 70%
-}
-main #contenido1{
-    position: relative;
-    background-color: rgb(255, 153, 102);;
-    height: 50vw;
-    width: 30%;
-}
-
-main #contenido1 img{
-    position: relative;
-    padding: 5vw;
-    height: 40vw;
-    width: 20vw;
-    border-radius: 15%;
-}
-
-main #contenido2{
-    border-radius: 1%;
-    position: relative;
-    background-color: rgb(255, 153, 102);;
-    height: 50vw;
-    width: 70%;
-}
-
-main #contenido2 p{
-    padding: 10%;
-    font-size: 2vh;
-}
-
-main #contenido2 ul{
-    position: relative;
-    padding: 12%;
-    font-size: 3vh;
-    
-}
-
-main #contenido2 ul li{
-    position: relative;
-    font-size: 3vh;
-    padding: 2%;
-    bottom: 10vh;
-    
-}
 
 
 header{
@@ -84,7 +36,7 @@ header .contenidoheader{
 }
 
 header .contenidoheader h1{
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 5vh;
     text-align: center;
     margin-top: 3vw;
@@ -102,12 +54,70 @@ header .logo img{
     
 }
 
+main {
+    top: 20%;
+    display: flex;
+    width: 100%;
+    height: 70%
+}
+main #contenido1{
+    position: relative;
+    background-color: rgb(255, 153, 102);;
+    height: 50vw;
+    width: 30%;
+}
+
+main #contenido1 img{
+    position: relative;
+    padding: 5vw;
+    height: 40vw;
+    width: 20vw;
+    border-radius: 15%;
+}
+
+main #contenido2{
+    border-radius: 1%;
+    position: relative;
+    background-color: rgb(255, 153, 102);
+    height: 50vw;
+    width: 70%;
+}
+
+main #contenido2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10%;
+    font-size: 2vh;
+}
+
+main #contenido2 ul{
+    
+    position: relative;
+    padding: 12%;
+    font-size: 3vh;
+}
+
+main #contenido2 ul li{
+    position: relative;
+    font-size: 3vh;
+    padding: 2%;
+    bottom: 10vh;
+    color: black;
+}
+
+main #contenido2 ul li a:active{
+    color:rgb(114, 175, 226);
+}
+
+main #contenido2 ul li a:hover{
+    color: violet;
+}
 
 
 footer{
+    background-color:rgb(255, 153, 51 );
     text-align: center;
     top: 100%;
-    height: 15%;
+    height: 10%;
     width: 100%;
 }
 

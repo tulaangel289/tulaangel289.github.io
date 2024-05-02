@@ -38,6 +38,7 @@ header .anuncios_h1{
 header .anuncios_h1 a{
     background-color: rgba(237, 127, 104);
     color: black;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 3vh;
 }
 
