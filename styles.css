@@ -7,11 +7,45 @@
 }
 
 
-.header{
-    height: 10vh;
+header{
+    height: 12vh;
     width: 100%;
     background-color:rgba(237, 127, 104);
+    display: flex;
 }
+
+header .logo{
+    background-color:rgba(237, 127, 104);
+    width: 50%;
+    display: flex;
+    align-items: center
+}
+
+header .logo img{
+    position: relative;
+    height: 10vh;
+    left: 5vh;
+}
+
+header .anuncios_h1{
+    background-color:rgba(237, 127, 104);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+header .anuncios_h1 span{
+    background-color: rgba(237, 127, 104);
+    width: 100%;
+    color: black;
+    font-size: large;
+    left: 5vh;
+}
+
+
+    
+
 
 
 #box_2 {
