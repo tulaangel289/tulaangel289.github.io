@@ -58,7 +58,6 @@ header{
 }
 
 .cont2 .cont2abs2{
-    display: flex;
     flex: 2;
     padding: 25px;
     position: absolute;
@@ -81,6 +80,22 @@ header{
     margin-top: 50%;
     left: 30px;
     font-size: xx-large;
+    color: #954435;
+}
+
+.cont2abs2 h1{
+    color: #954435; 
+}
+.tecnologias{
+    color: #954435;
+    padding: 5%;
+}
+
+.tecnologias li{
+    padding: 2%;
+}
+
+.cont2abs2 h5{
     color: #954435;
 }
 
