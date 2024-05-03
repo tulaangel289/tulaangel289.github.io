@@ -5,16 +5,19 @@
 }
 
 body {
-    background-color: blueviolet;
+    background-color: #191825
+    ;
 }
 
 header{
+    color: #954435;
     height: 20px;
-    background-color: white;
+    background-color: #272829;
     flex-wrap: wrap;
     text-align: center;
     padding: 25px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .contenido {
@@ -25,6 +28,7 @@ header{
 }
 
 .cont1{
+    color: #954435;;
     height: 740px;
     flex: 1;
     min-width: 250px;
@@ -36,7 +40,7 @@ header{
     flex-wrap: wrap;
     flex: 2;
     padding: 25px;
-    background-color: white;
+    background-color: #272829;
     margin-bottom: 0px;
 }
 
@@ -48,7 +52,8 @@ header{
     width: 50%;
     left: 25%;
     height: 300px;
-    background-color: black;
+    background-color:#393646;
+    border-radius: 10px;
     
 }
 
@@ -61,22 +66,51 @@ header{
     left: 25%;
     bottom: 5%;
     height: 300px;
-    background-color:aquamarine;
+    background-color:#393646;
+    border-radius: 10px;
     
+}
+
+
+.redireccion li a{
+    color:#954435;
+}
+.redireccion li{
+    position: relative;
+    padding: 15px;
+    margin-top: 50%;
+    left: 30px;
+    font-size: xx-large;
+    color: #954435;
 }
 
 .cont1 div{
     height: 325px;
     padding: 25px;
-    background-color: white;
+    background-color: #272829;
     margin: 20px;
 }
 
 footer{
-    height: 20px;
     flex-wrap: wrap;
     text-align: center;
     margin: 10px;
     padding: 25px;
-    background-color: white;
+    background-color: #272829;
+    border-radius: 10px;
+}
+
+footer{
+    height: 10%;
+    width: 95%%;
+}
+
+footer h1{
+    color: #954435;;
+    font-size: 2vh;
+}
+
+footer h3{
+    color: #954435;;
+    font-size: 2vh;
 }
